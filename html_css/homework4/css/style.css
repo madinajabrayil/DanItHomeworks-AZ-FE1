@@ -1,0 +1,219 @@
+:root{
+    --greenText-:#3CB878;
+}
+
+
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     box-sizing: border-box;
+     width:100%;
+     height: 100%;
+
+ }
+ 
+ 
+ .bg-image{
+     width: 100%;
+     height: 100%;
+     background-repeat: no-repeat;
+     background-size: cover;
+     margin-top: -16px;
+     min-height: 102vh;
+     position: relative;
+ }
+ 
+ a{
+     text-decoration: none;
+ }
+ 
+ .clearfix{
+     content: " ";
+     clear: both;
+     display: table;
+ }
+ 
+ .header{
+     background-color: black;
+     color: white;
+     opacity: .6;
+     padding: 0 80px;
+     position: relative;
+     height: 95px;
+     
+ }
+.textLogo{
+    color: white;
+    display: inline-block;
+    padding:15px;
+    font-weight: bold;
+    font-size: 25px;
+    z-index: 1;
+}
+
+.textLogo:hover{
+    color: var(--greenText-);
+}
+
+.socialIcons{
+    position: absolute;
+    border-right: 1px solid white;
+    top: 45px;
+    right: 23%;
+}
+
+.socialIcons i{
+    font-size: 25px;
+    margin-left: 0;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.welcome{
+    position: absolute;
+    top: 33px;
+    right: 80px;
+}
+
+a.greenText{
+    color: var(--greenText-);
+    cursor: pointer;
+}
+
+/* Register */
+.mainRegister{
+    background-color: white;
+    position: absolute;
+    top: 56%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 20%;
+    padding: 20px 50px;
+    border-radius: 4%;
+
+}
+
+.sigIn{
+    font-size: 18px;
+}
+
+.logIn{
+    font-size: 14px;
+    padding-left: 192px;
+    color: var(--greenText-);
+}
+
+.facebook,.google{
+    display: inline-block;
+    width: 141px;
+    border-radius: 3px;
+    margin-top: 13px;
+    color: white;
+    padding: 13px 5px;
+    margin-bottom: 20px;
+}
+
+.facebook{
+    background-color: #305DB8;
+}
+
+.facebook i{
+    border-right: 1px solid rgb(23, 54, 114);
+    padding: 0 13px;
+}
+
+.google{
+    background-color:#DF4A32;
+}
+
+.google i{
+    border-right: 1px solid rgb(124, 33, 19);
+    padding: 0 13px;
+}
+
+.facebook span, .google span{
+    padding-left: 13px;
+}
+
+.hrWidth{
+    width: 37%;
+    display: inline-block;
+    margin-right: 16px;
+    margin-left: 10px;
+
+}
+.or{
+    color: grey;
+}
+
+.form{
+    margin-top: 30px;
+    position: relative;
+}
+
+.form input{
+    margin: 5px 0px;
+    padding: 13px 80px 13px 20px;
+    border: 1px solid #d7d4d4;
+    border-radius: 5px;
+    color: #d7d4d4;
+}
+
+.greenDiv{
+    width: 20px;
+    height: 20px;
+    background-color:var(--greenText-);
+    position: absolute;
+    left: 0;
+}
+
+.form input:nth-child(5){
+    margin-bottom: 20px;
+}
+
+
+
+input.checkbox{
+ position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+.checkmark {
+    position: absolute;
+    bottom: 81px;
+    left: 0;
+    width: 15px;
+    background-color: white;
+    border: 1px solid #d7d4d4;
+    border-radius: 2px;
+    padding:1px 2px; 
+}
+
+.checkmark i{
+    color: white;
+    font-size: 11px;
+   
+}
+.checkbox:checked ~ .checkmark i{
+    color: var(--greenText-);
+}
+
+ .greenLink{
+    color: var(--greenText-);
+}
+
+.btn{
+    margin-top: 20px;
+    margin-bottom: 15px;
+    padding: 13px 90px;
+    color: white;
+    border: 1px solid var(--greenText-);
+    background-color: var(--greenText-);
+    border-radius: 2px;
+}
+
+span.label{
+    margin-left: 30px;
+}
