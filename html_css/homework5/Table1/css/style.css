@@ -1,0 +1,217 @@
+:root{
+    --standart-col--:#89C331;
+    --ultimate-col--:#F04A56;
+    --premium-col--:#20807C;
+    --primary-col--:#F2F2F2;
+    --secondary-col-:#E3E3E3;
+    --base-color--:#FAFAFA;
+    --gray-color--:#484848;
+    --gray2-col--:#848484;
+}
+
+*{
+    box-sizing: border-box;
+    text-transform: uppercase;
+    font-weight: normal;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Arimo', sans-serif;
+
+    
+}
+
+.choose-text{
+    font-size: 18px;
+    color: var(--gray-color--);
+    font-weight: 700;
+    text-align: center;
+    margin: 0;
+
+}
+
+.choose2{
+    font-size: 30px;
+    color: var(--gray-color--);
+    font-weight: 700;
+    text-align: center;
+    margin: 0;
+}
+
+.standart{
+    background-color: var(--standart-col--);
+    color: var(--base-color--);
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+   
+}
+
+.ultimate{
+    background-color: var(--ultimate-col--);
+    color: var(--base-color--);
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+   
+}
+
+.premium{
+    background-color: var(--premium-col--);
+    color: var(--base-color--);
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+   
+}
+
+.priTable{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    max-height: 1100hv;
+    border-collapse: collapse;
+}
+
+.price{
+    font-size: 60px;
+    color: var(--gray-color--);
+    font-weight: 700;
+    text-align: center;
+}
+
+.colin{
+    font-size: 24px;
+    color: var(--gray-color--);
+    font-weight: 700;
+    text-align: center;
+   
+}
+
+sup {
+    top: -1.1em;
+}
+
+.month{
+    font-size: 18px;
+    color: var(--gray-color--);
+    font-weight: 400;
+    position: relative;
+    right: 30px;
+}
+
+.tableTr{
+    width: 100%;
+    text-align: center;
+}
+
+.tableTr td{
+     padding: 15px 20px;
+     margin: 0;
+     height: 69px;
+ }
+
+ .tableTr th{
+     width: 25%;
+     padding: 35px 25px;
+     margin: -2px;
+}
+
+.tableTr i{
+  vertical-align: middle;
+    font-size: 24px;
+    padding-right:15px; 
+}
+.tablePer{
+    height: 86px;
+}
+
+.tablePer td{
+    padding: 20px 25px;
+}
+
+.price{
+    display: inline-block;  
+}
+.tr1{
+    background-color: #F2F2F2;
+     height: 70px;
+     color: var(--gray2-col--);
+}
+
+.tr2{
+    background-color: #E3E3E3;
+    height: 70px;
+    color: var(--gray2-col--);
+}
+
+.btn{
+    color: var(--base-color--);
+    border-radius: 4px;
+    padding: 15px 65px;
+    text-transform: uppercase;
+   
+}
+
+.trBtn {
+    background-color: #EEEEEE;
+    height: 126px;
+}
+
+.trBtn td{
+    position: relative;
+    padding: 37px 20px;
+}
+/* .divBtn{
+    width: 207px;
+    height: 8px;
+    position: absolute;
+    left: 23%;
+    bottom: 37px;
+    
+}
+ 
+.divContact{
+    background-color: #404040;
+    width: 230px;
+    position: absolute;
+    height: 8px;
+    left: 20%;
+    bottom: 37px;
+}
+
+.divBuy1{
+    background-color: #79B027;
+}
+
+.divBuy2{
+    background-color: #DF3A46;
+}
+
+.divBuy3{
+    background-color: #16736F;
+} */
+
+.contact{
+    background-color: var(--gray-color--);
+    border: 1px solid var(--gray-color--);
+}
+
+.buy1{
+    background-color: var(--standart-col--);
+    border: 1px solid var(--standart-col--);
+}
+
+.buy2{
+    background-color: var(--ultimate-col--);
+    border: 1px solid var(--ultimate-col--);
+}
+
+.buy3{
+    background-color: var(--premium-col--);
+    border: 1px solid var(--premium-col--);
+    
+}
