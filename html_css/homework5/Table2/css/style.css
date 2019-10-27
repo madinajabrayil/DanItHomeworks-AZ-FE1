@@ -1,0 +1,175 @@
+:root{
+    --standart-col--:#89C331;
+    --ultimate-col--:#F04A56;
+    --premium-col--:#20807C;
+    --primary-col--:#F2F2F2;
+    --secondary-col-:#E3E3E3;
+    --base-color--:#FAFAFA;
+    --gray2-col--:#484848;
+    --gray-color--:#848484;
+}
+
+*{
+    box-sizing: border-box;
+    text-transform: uppercase;
+    font-weight: normal;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Arimo', sans-serif;
+    
+}
+
+.choose-text{
+    font-size: 18px;
+    color: var(--gray2-col--);
+    font-weight: 700;
+    text-align: center;
+    margin: 0;
+
+}
+
+.choose2{
+    font-size: 30px;
+    color: var(--gray2-col--);
+    font-weight: 700;
+    text-align: center;
+    margin: 0;
+}
+
+.standart{
+    background-color: var(--standart-col--);
+    color: var(--base-color--);
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+   
+}
+
+.ultimate{
+    background-color: var(--ultimate-col--);
+    color: var(--base-color--);
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+   
+}
+
+.premium{
+    background-color: var(--premium-col--);
+    color: var(--base-color--);
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+   
+}
+
+.priTable{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    border-collapse: collapse;
+}
+
+.firstTr td{
+    padding: 35px 45px;  
+   color: var(--gray2-col--);
+   text-align: center;
+   font-size: 24px; 
+   font-weight: 700;
+}
+
+
+.price{
+    font-size: 42px;
+    color: var(--primary-col--);
+    font-weight: 700;
+    text-align: center;
+}
+
+.colin{
+    font-size: 21px;
+    color: var(--primary-col--);
+    font-weight: 700;
+    text-align: center;
+   
+}
+
+sup {
+    top: -15px;
+}
+
+.month{
+    font-size: 14px;
+    color: var(--primary-col--);
+    font-weight: 400;
+    
+}
+
+.tableTr{
+    width: 100%;
+    text-align: center;
+}
+
+.tableTr h2{
+    font-size: 30px;
+    color: var(--primary-col--);
+    font-weight: 700;
+    text-align: center;
+}
+
+.tableTr td{
+     margin: 0;
+    
+ }
+
+ .tableTr th{
+     width: 20%;
+     padding: 1px 20px;
+}
+
+.tr td{
+    padding: 0 55px;
+    font-size: 20px;
+    color: var(--gray-color--);
+    font-weight: 400;
+    text-align: center;
+    border-bottom: 1px solid var(--gray-color--);
+    border-top: 1px solid  var(--gray-color--);
+}
+
+.tableTr i{
+    vertical-align: middle;
+    font-size: 24px;
+    padding: 0 15px 10px 15px;
+    color: var(--gray-color--);
+}
+
+
+.price{
+    display: inline-block;  
+}
+
+.btn{
+    width: 160px;
+    height: 43px;
+    border-radius: 5px;
+    background-color: #414141;
+    border: 1px solid #414141;
+    color: var(--primary-col--);
+    text-transform: uppercase;
+    margin: 15px 30px;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.trGray{
+    background-color: var(--secondary-col-);
+}
+
+.trGrey{
+    background-color: var(--primary-col--);
+}
