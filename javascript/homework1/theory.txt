@@ -1,0 +1,9 @@
+1)Explain in your own words the difference between declaring variables via `var`, `let` and `const`. 
+
+-- var is function scoped and let is block scoped.
+-- Variables defined with const behave like let variables, except they cannot be reassigned
+-- const variables must be assigned a value when they are declared. var and let variables that isn't important.
+
+2) Why is declaration of a variable via `var` considered a bad tone?
+
+--var are not block scoped (although they are function scoped), while with let and const they are.
