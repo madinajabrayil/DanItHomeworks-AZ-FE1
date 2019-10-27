@@ -1,0 +1,59 @@
+body {
+    width: 100%;
+    height: 100%;
+    background: #000;
+    overflow: hidden;
+    font-family: 'Roboto Condensed', sans-serif;
+  }
+  
+  .fade {
+    position: relative;
+    width: 100%;
+    min-height: 60vh;
+    top: -25px;
+    background-image: linear-gradient(0deg, transparent, black);
+    z-index: 1;
+  }
+  
+  .star-wars {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    height: 800px;
+    color: #FACE00;
+    font-size: 80px;
+    font-weight: 600;
+    line-height: 153px;
+    perspective: 400px;
+    text-align: justify;
+  }
+  
+  .star-wars-block {
+    position: relative;
+    animation: star-wars-block 30s infinite;
+    animation-timing-function: linear;
+  }
+  
+  .star-wars-heading {
+    font-size: 40px;
+    text-align: center;
+  }
+  
+  .star-wars-block > .star-wars-heading h1,h2 {
+    text-transform: uppercase;
+   
+  }
+  
+  @keyframes star-wars-block {
+      0% {
+      top: -100px;
+      transform: rotateX(15deg)  translateZ(0);
+    }
+
+      100% { 
+      top: -2500px;
+      transform: rotateX(20deg) translateZ(-1100px);
+    }
+  }
+  
+  
