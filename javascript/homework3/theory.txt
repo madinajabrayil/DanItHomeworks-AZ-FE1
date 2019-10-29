@@ -1,0 +1,1 @@
+ A function is a type of procedure or routine. Some programming languages make a distinction between a function, which returns a value and a procedure, which performs some operation but does not return a value.

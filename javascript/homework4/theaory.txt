@@ -1,0 +1,2 @@
+If we compare it with real life, everything we see around us is an object, and there are objects' parameters and actions to do.
+Object refers to a particular instance of a class, where the object can be a combination of variables, functions, and data structures.
