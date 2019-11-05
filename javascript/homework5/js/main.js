@@ -1,39 +1,28 @@
-function createNewUser(name, surname, bdate) {
-
-    name = prompt('Please enter your first name:');
-    surname = prompt('Please enter your last name:')
-    bdate = prompt("Enter your birthday as 'dd.mm.yyyy'");
-
+function createNewUser(name, surname, age) {
 
     this.name = name;
-
-    this.set = function (name) {
-        this.name = name;
-        return this;
-    };
-
+   
     this.surname = surname;
 
-    this.set = function (surname) {
-        this.surname = surname;
-        return this;
-    };
+    this.age = age
 
+    let bdate;
+    bdate+=age;
 
     this.getLogin = function () {
         let userName;
         userName = (name.charAt(0) + surname).toLowerCase();
         return userName;
-    }
+    },
 
     //Get Age function
 
-    this.getAge = function (bdate) {
+    this.getAge = function () {
 
         //Date format 
         let dd = bdate.slice(0, 1); //get day
         let mm = bdate.slice(3, 5); //get month
-        let yyyy = bdate.slice(6, 11); //get year
+        let yyyy = bdate.slice(-4); //get year
 
         //Today's date
         let today = new Date();
@@ -41,27 +30,28 @@ function createNewUser(name, surname, bdate) {
         let MM = today.getMonth();
         let YYYY = today.getFullYear();
 
-        let age = YYYY - yyyy;
+         age = YYYY - yyyy;
 
-          if (mm > MM || (mm == MM && dd > DD)) {
+        if (mm > MM || (mm == MM && dd > DD)) {
             age = age - 1;
         }
         return age;
 
-    }
+    },
 
-    alert(name + ' ' + surname + ' '  + getAge(bdate));
+     alert(name + ' ' + surname + ' '  + getAge(age));
 
     //Get Password function
 
     this.getPassword = function () {
-        let yyyy = bdate.slice(6, 11);
-        return (name.charAt(0)).toUpperCase() + surname.toLowerCase() + yyyy;
-
+        let yyyy = bdate.slice(-4);
+        let password = (name.charAt(0)).toUpperCase() + surname.toLowerCase() + yyyy;
+        return password;
 
     }
 
-    alert('Your password is' + ' ' + getPassword());
+        alert('Your password is' + ' ' + getPassword());
 }
-
-createNewUser();
+ let user = createNewUser("Madina", "Jabrayil", "11.01.2000");
+//  alert('Your age is' + ' ' + user.getAge());
+//  alert('Your password is' + ' ' + user.getPassword());
